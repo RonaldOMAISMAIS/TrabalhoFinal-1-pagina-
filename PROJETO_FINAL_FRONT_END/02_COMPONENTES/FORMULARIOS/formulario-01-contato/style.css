@@ -1,0 +1,1 @@
+body{font-family:Arial;padding:40px}form{max-width:500px;display:grid;gap:16px}label{display:grid;gap:6px}input,textarea{padding:12px;border:1px solid #ccc}textarea{min-height:120px}button{padding:12px;background:#222;color:white;border:0}

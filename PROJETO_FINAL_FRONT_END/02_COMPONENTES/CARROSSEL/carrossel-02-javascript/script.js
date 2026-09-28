@@ -1,0 +1,1 @@
+const track=document.querySelector(".track");let index=0;const total=track.children.length;function update(){track.style.transform=`translateX(-${index*100}%)`;}document.querySelector("#next").onclick=()=>{index=(index+1)%total;update();};document.querySelector("#prev").onclick=()=>{index=(index-1+total)%total;update();};

@@ -1,0 +1,1 @@
+body{font-family:Arial;padding:40px}.carousel{display:flex;gap:16px;overflow-x:auto;scroll-snap-type:x mandatory}.carousel div{min-width:260px;height:180px;background:#eee;display:grid;place-items:center;scroll-snap-align:start}

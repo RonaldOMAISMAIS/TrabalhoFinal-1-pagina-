@@ -1,0 +1,1 @@
+body{font-family:Arial;padding:40px}.carousel{overflow:hidden;max-width:500px}.track{display:flex;transition:transform .3s}.track div{min-width:100%;height:180px;background:#eee;display:grid;place-items:center}.controls{margin-top:15px;display:flex;gap:10px}

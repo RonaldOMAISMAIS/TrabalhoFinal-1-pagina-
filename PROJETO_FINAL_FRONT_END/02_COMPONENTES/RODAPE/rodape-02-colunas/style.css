@@ -1,0 +1,1 @@
+body{margin:0;font-family:Arial}footer{padding:50px 8%;background:#eee;display:grid;grid-template-columns:2fr 1fr 1fr;gap:30px}footer a{display:block;margin-top:8px;color:#222}@media(max-width:650px){footer{grid-template-columns:1fr}}

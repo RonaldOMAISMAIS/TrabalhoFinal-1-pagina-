@@ -1,0 +1,12 @@
+/* Desktop primeiro */
+.container {
+    width: min(1100px, 90%);
+    margin: 0 auto;
+}
+
+/* Telas menores */
+@media (max-width: 760px) {
+    .cards {
+        grid-template-columns: 1fr;
+    }
+}
