@@ -13,6 +13,8 @@
     box-sizing: border-box;
 }
 
+
+
 html {
     scroll-behavior: smooth;
 }
@@ -24,6 +26,10 @@ body {
     line-height: 1.6;
 }
 
+img {
+    width: 77px;
+}
+
 a {
     color: inherit;
 }
@@ -32,6 +38,14 @@ a {
     width: min(1100px, 90%);
     margin: 0 auto;
 }
+
+/* HERO */
+.hero{min-height:500px;padding:60px 8%;display:grid;grid-template-columns:1fr 1fr;gap:50px;align-items:center}
+.hero h1{font-size:clamp(2.4rem,5vw,4rem);line-height:1.05; max-width: 350px;}
+.hero span{display:block;color:#666;margin-bottom:24px}
+.hero a{display:inline-block;background:#222;color:white;padding:12px 20px;text-decoration:none;border-radius:6px}
+.image{min-height:350px;background:#eee;display:grid;place-items:center; width: 372px}@media(max-width:700px){.hero{grid-template-columns:1fr}}
+
 
 .section {
     padding: 80px 0;
